@@ -1,4 +1,4 @@
-# <PROJECT_TITLE> <FOLDER> Repository Folder
+# OCLandCover Codebook Repository Folder
 
 This folder contains codebooks that provide detailed information about the datasets used in this project. Each codebook includes descriptions of variables, data collection methods, and any relevant metadata to help users understand and utilize the datasets effectively.
 

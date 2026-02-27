@@ -1,4 +1,4 @@
-# <PROJECT_TITLE> <FOLDER> Repository Folder
+# OCLandCover Admin Repository Folder
 
 This folder contains administrative scripts and tools that are used for managing and maintaining the repository. These scripts may include tasks such as setting up the project environment, automating routine maintenance tasks, or managing data workflows. The tools in this folder are intended to support the overall administration and organization of the project.
 

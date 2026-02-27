@@ -1,4 +1,4 @@
-# <PROJECT_TITLE> <FOLDER> Repository Folder
+# OCLandCover Processed Repository Folder
 
 This folder contains processed data files that have been cleaned, transformed, or otherwise prepared for analysis. These files are typically the result of data cleaning and preprocessing steps applied to raw data to make it suitable for analysis and modeling.
 

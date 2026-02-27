@@ -1,4 +1,4 @@
-# <PROJECT_TITLE> <FOLDER> Repository Folder
+# OCLandCover Analysis Repository Folder
 
 This folder contains data analysis scripts and notebooks that are used to perform various analyses on the datasets within the project. These analyses may include statistical evaluations, data transformations, model implementations, and other analytical procedures that contribute to the project's objectives. The contents of this folder are intended to facilitate the exploration and understanding of the data through systematic analysis.
 

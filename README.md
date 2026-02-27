@@ -1,26 +1,25 @@
-<h1 align = "center">🗄️ <PROJECT_TITLE></h1>
+<h1 align = "center">🗄️ OC Land Cover</h1>
 <div align = "center">
 
-<h3>🔖 <PROJECT_SUBTITLE></h3>
+<h3>🔖 Orange County Land Cover/Land Use Data Repository</h3>
 
 **👤 Kostas Alexandridis, PhD, GISP** | *🏷️ v. 2025.0, Month 2025*
 
-![Static Badge](https://img.shields.io/badge/ProjectTemplate-GitHub?style=plastic&logo=github&logoSize=auto&labe=GitHub&labelColor=navy) 
-![GitHub License](https://img.shields.io/github/license/ktalexan/ProjectTemplate?style=plastic&labelcolor=black) 
-![Shield Badge: Language-Julia](https://img.shields.io/static/v1?style=plastic&label=language&message=Julia&logo=julia&color=purple&labelColor=black) 
+![Static Badge](https://img.shields.io/badge/OC_Land_Cover-GitHub?style=plastic&logo=github&logoSize=auto&labe=GitHub&labelColor=navy) 
+![GitHub License](https://img.shields.io/github/license/ktalexan/OC_Land_Cover?style=plastic&labelcolor=black) 
 ![Shield Badge: Language-Python](https://img.shields.io/static/v1?style=plastic&label=language&message=Python&logo=python&color=forestgreen&logoColor=blue&labelColor=black)
 
 </div>
 
 ----
   
-## 🗃️ ProjectTemplate Project Overview
+## 🗃️ OC Land Cover Project Overview
 
-**Description**: <PROJECT_DESCRIPTION>
+**Description**: This repository contains the Orange County Land Cover/Land Use data. It includes standard configurations and files to help you get started quickly.
 
-**Keywords**: <PROJECT_TAGS>
+**Keywords**: GitHub, Python
 
-**Repository Type**: <REPO_TYPE>
+**Repository Type**: template/snippets/archived/geospatial/ai-ml/policy/dtc
 
 Below, the main project folder structure is provided and described. The project is organized into several folders, each containing specific types of files related to the analysis.
 

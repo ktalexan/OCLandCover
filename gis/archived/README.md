@@ -1,4 +1,4 @@
-# <PROJECT_TITLE> <FOLDER> Repository Folder
+# OCLandCover Archived Repository Folder
 
 This folder contains archived GIS data files that are no longer actively used in the project but are retained for historical reference or potential future use. These files may include older versions of datasets, deprecated data formats, or any other data that has been superseded by more current information.
 

@@ -1,4 +1,4 @@
-# <PROJECT_TITLE> <FOLDER> Repository Folder
+# OCLandCover Data Repository Folder
 
 This folder contains datasets used in this project. The datasets are organized in various formats such as CSV, JSON, Excel, and others to accommodate different data analysis needs.
 

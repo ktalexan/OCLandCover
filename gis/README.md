@@ -1,4 +1,4 @@
-# <PROJECT_TITLE> <FOLDER> Repository Folder
+# OCLandCover GIS Repository Folder
 
 This folder contains Geographic Information System (GIS) data, maps, and related resources used in the project. The GIS data may include shapefiles, geodatabases, raster files, and other spatial data formats that are essential for spatial analysis and mapping tasks within the project. The contents of this folder are intended to support spatial data management, analysis, and visualization efforts.
 
