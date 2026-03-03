@@ -1,0 +1,1734 @@
+{
+    "land_cover": {
+        "250": {
+            "value": 250,
+            "group": "No Data",
+            "class": "NoData",
+            "description": "Areas that cannot be classified due to missing data, cloud cover, or other issues.",
+            "rgb": [0, 0, 0],
+            "hex": "#000000"
+        },
+        "11": {
+            "value": 11,
+            "group": "Water",
+            "class": "Open Water",
+            "description": "Areas of open water, generally with less than 25% vegetation cover.",
+            "rgb": [70, 107, 159],
+            "hex": "#466b9f"
+        },
+        "12": {
+            "value": 12,
+            "group": "Water",
+            "class": "Perennial Ice/Snow",
+            "description": "Areas characterized by a perennial cover of ice and/or snow, generally greater than 25% of total cover.",
+            "rgb": [209, 222, 248],
+            "hex": "#d1def8"
+        },
+        "21": {
+            "value": 21,
+            "group": "Developed",
+            "class": "Developed, Open Space",
+            "description": "Areas with a mixture of some constructed materials, but mostly vegetation in the form of lawn grasses. Impervious surfaces account for less than 20% of total cover. These areas most commonly include large-lot single-family housing units, parks, golf courses, and vegetation planted in developed settings for recreation, erosion control, or aesthetic purposes.",
+            "rgb": [222, 197, 197],
+            "hex": "#dec5c5"
+        },
+        "22": {
+            "value": 22,
+            "group": "Developed",
+            "class": "Developed, Low Intensity",
+            "description": "Areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 20% to 49% percent of total cover. These areas most commonly include single-family housing units.",
+            "rgb": [217, 146, 130],
+            "hex": "#d99282"
+        },
+        "23": {
+            "value": 23,
+            "group": "Developed",
+            "class": "Developed, Medium Intensity",
+            "description": "Areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 50% to 79% of the total cover. These areas most commonly include single-family housing units.",
+            "rgb": [235, 0, 0],
+            "hex": "#eb0000"
+        },
+        "24": {
+            "value": 24,
+            "group": "Developed",
+            "class": "Developed, High Intensity",
+            "description": "Highly developed areas where people reside or work in high numbers. Examples include apartment complexes, row houses and commercial/industrial. Impervious surfaces account for 80% to 100% of the total cover.",
+            "rgb": [171, 0, 0],
+            "hex": "#ab0000"
+        },
+        "31": {
+            "value": 31,
+            "group": "Barren",
+            "class": "Barren Land (Rock/Sand/Clay)",
+            "description": "Areas of bedrock, desert pavement, scarps, talus, slides, volcanic material, glacial debris, sand dunes, strip mines, gravel pits and other accumulations of earthen material. Generally, vegetation accounts for less than 15% of total cover.",
+            "rgb": [179, 172, 159],
+            "hex": "#b3ac9f"
+        },
+        "41": {
+            "value": 41,
+            "group": "Forest",
+            "class": "Deciduous Forest",
+            "description": "Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75% of the tree species shed foliage simultaneously in response to seasonal change.",
+            "rgb": [104, 171, 95],
+            "hex": "#68ab5f"
+        },
+        "42": {
+            "value": 42,
+            "group": "Forest",
+            "class": "Evergreen Forest",
+            "description": "Areas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. More than 75% of the tree species maintain their leaves all year. Canopy is never without green foliage.",
+            "rgb": [28, 95, 44],
+            "hex": "#1c5f2c"
+        },
+        "43": {
+            "value": 43,
+            "group": "Forest",
+            "class": "Mixed Forest",
+            "description": "Aareas dominated by trees generally greater than 5 meters tall, and greater than 20% of total vegetation cover. Neither deciduous nor evergreen species are greater than 75% of total tree cover.",
+            "rgb": [181, 197, 143],
+            "hex": "#b5c58f"
+        },
+        "52": {
+            "value": 52,
+            "group": "Shrubland",
+            "class": "Shrub/Scrub",
+            "description": "Areas dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions.",
+            "rgb": [204, 184, 121],
+            "hex": "#ccb879"
+        },
+        "71": {
+            "value": 71,
+            "group": "Herbaceous",
+            "class": "Grassland/Herbaceous",
+            "description": "Areas dominated by graminoid or herbaceous vegetation, generally greater than 80% of total vegetation. These areas are not subject to intensive management such as tilling but can be utilized for grazing.",
+            "rgb": [223, 223, 194],
+            "hex": "#dfdfc2"
+        },
+        "81": {
+            "value": 81,
+            "group": "Planted/Cultivated",
+            "class": "Pasture/Hay",
+            "description": "Areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops, typically on a perennial cycle. Pasture/hay vegetation accounts for greater than 20% of total vegetation.",
+            "rgb": [220, 217, 57],
+            "hex": "#dcd939"
+        },
+        "82": {
+            "value": 82,
+            "group": "Planted/Cultivated",
+            "class": "Cultivated Crops",
+            "description": "Areas used to produce annual crops, such as corn, soybeans, vegetables, tobacco, and cotton, and perennial woody crops such as orchards and vineyards. Crop vegetation accounts for greater than 20% of total vegetation. This class also includes all land being actively tilled.",
+            "rgb": [171, 108, 40],
+            "hex": "#ab6c28"
+        },
+        "90": {
+            "value": 90,
+            "group": "Wetlands",
+            "class": "Woody Wetlands",
+            "description": "Areas where forest or shrubland vegetation accounts for greater than 20% of vegetative cover and the soil or substrate is periodically saturated with or covered with water.",
+            "rgb": [184, 217, 235],
+            "hex": "#b8d9eb"
+        },
+        "95": {
+            "value": 95,
+            "group": "Wetlands",
+            "class": "Emergent Herbaceous Wetlands",
+            "description": "Areas where perennial herbaceous vegetation accounts for greater than 80% of vegetative cover and the soil or substrate is periodically saturated with or covered with water.",
+            "rgb": [108, 159, 184],
+            "hex": "#6c9fb8"
+        }
+    },
+    "land_cover_change": {
+        "9999": {
+            "value": 9999,
+            "class": "NoData",
+            "rgb": [0, 0, 0],
+            "hex": "#000000"
+        },
+        "11": {
+            "value": 11,
+            "class": "Open Water",
+            "rgb": [70, 107, 159],
+            "hex": "#466b9f"
+        },
+        "12": {
+            "value": 12,
+            "class": "Perennial Ice/Snow",
+            "rgb": [209, 222, 248],
+            "hex": "#d1def8"
+        },
+        "21": {
+            "value": 21,
+            "class": "Developed, Open Space",
+            "rgb": [222, 197, 197],
+            "hex": "#dec5c5"
+        },
+        "22": {
+            "value": 22,
+            "class": "Developed, Low Intensity",
+            "rgb": [217, 146, 130],
+            "hex": "#d99282"
+        },
+        "23": {
+            "value": 23,
+            "class": "Developed, Medium Intensity",
+            "rgb": [235, 0, 0],
+            "hex": "#eb0000"
+        },
+        "24": {
+            "value": 24,
+            "class": "Developed, High Intensity",
+            "rgb": [171, 0, 0],
+            "hex": "#ab0000"
+        },
+        "31": {
+            "value": 31,
+            "class": "Barren Land (Rock/Sand/Clay)",
+            "rgb": [179, 172, 159],
+            "hex": "#b3ac9f"
+        },
+        "41": {
+            "value": 41,
+            "class": "Deciduous Forest",
+            "rgb": [104, 171, 95],
+            "hex": "#68ab5f"
+        },
+        "42": {
+            "value": 42,
+            "class": "Evergreen Forest",
+            "rgb": [28, 95, 44],
+            "hex": "#1c5f2c"
+        },
+        "43": {
+            "value": 43,
+            "class": "Mixed Forest",
+            "rgb": [181, 197, 143],
+            "hex": "#b5c58f"
+        },
+        "52": {
+            "value": 52,
+            "class": "Shrub/Scrub",
+            "rgb": [204, 184, 121],
+            "hex": "#ccb879"
+        },
+        "71": {
+            "value": 71,
+            "class": "Grassland/Herbaceous",
+            "rgb": [223, 223, 194],
+            "hex": "#dfdfc2"
+        },
+        "81": {
+            "value": 81,
+            "class": "Pasture/Hay",
+            "rgb": [220, 217, 57],
+            "hex": "#dcd939"
+        },
+        "82": {
+            "value": 82,
+            "class": "Cultivated Crops",
+            "rgb": [171, 108, 40],
+            "hex": "#ab6c28"
+        },
+        "90": {
+            "value": 90,
+            "class": "Woody Wetlands",
+            "rgb": [184, 217, 235],
+            "hex": "#b8d9eb"
+        },
+        "95": {
+            "value": 95,
+            "class": "Emergent Herbaceous Wetlands",
+            "rgb": [108, 159, 184],
+            "hex": "#6c9fb8"
+        },
+        "1112": {
+            "value": 1112,
+            "class": "Open Water to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1121": {
+            "value": 1121,
+            "class": "Open Water to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1122": {
+            "value": 1122,
+            "class": "Open Water to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1123": {
+            "value": 1123,
+            "class": "Open Water to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1124": {
+            "value": 1124,
+            "class": "Open Water to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1131": {
+            "value": 1131,
+            "class": "Open Water to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1141": {
+            "value": 1141,
+            "class": "Open Water to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1142": {
+            "value": 1142,
+            "class": "Open Water to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1143": {
+            "value": 1143,
+            "class": "Open Water to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1152": {
+            "value": 1152,
+            "class": "Open Water to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1171": {
+            "value": 1171,
+            "class": "Open Water to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1181": {
+            "value": 1181,
+            "class": "Open Water to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1182": {
+            "value": 1182,
+            "class": "Open Water to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1190": {
+            "value": 1190,
+            "class": "Open Water to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1195": {
+            "value": 1195,
+            "class": "Open Water to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1211": {
+            "value": 1211,
+            "class": "Perennial Ice/Snow to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1221": {
+            "value": 1221,
+            "class": "Perennial Ice/Snow to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1222": {
+            "value": 1222,
+            "class": "Perennial Ice/Snow to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1223": {
+            "value": 1223,
+            "class": "Perennial Ice/Snow to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1224": {
+            "value": 1224,
+            "class": "Perennial Ice/Snow to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1231": {
+            "value": 1231,
+            "class": "Perennial Ice/Snow to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1241": {
+            "value": 1241,
+            "class": "Perennial Ice/Snow to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1242": {
+            "value": 1242,
+            "class": "Perennial Ice/Snow to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1243": {
+            "value": 1243,
+            "class": "Perennial Ice/Snow to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1252": {
+            "value": 1252,
+            "class": "Perennial Ice/Snow to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1271": {
+            "value": 1271,
+            "class": "Perennial Ice/Snow to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1281": {
+            "value": 1281,
+            "class": "Perennial Ice/Snow to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1282": {
+            "value": 1282,
+            "class": "Perennial Ice/Snow to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1290": {
+            "value": 1290,
+            "class": "Perennial Ice/Snow to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "1295": {
+            "value": 1295,
+            "class": "Perennial Ice/Snow to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2111": {
+            "value": 2111,
+            "class": "Developed, Open Space to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2112": {
+            "value": 2112,
+            "class": "Developed, Open Space to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2122": {
+            "value": 2122,
+            "class": "Developed, Open Space to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2123": {
+            "value": 2123,
+            "class": "Developed, Open Space to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2124": {
+            "value": 2124,
+            "class": "Developed, Open Space to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2131": {
+            "value": 2131,
+            "class": "Developed, Open Space to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2141": {
+            "value": 2141,
+            "class": "Developed, Open Space to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2142": {
+            "value": 2142,
+            "class": "Developed, Open Space to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2143": {
+            "value": 2143,
+            "class": "Developed, Open Space to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2152": {
+            "value": 2152,
+            "class": "Developed, Open Space to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2171": {
+            "value": 2171,
+            "class": "Developed, Open Space to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2181": {
+            "value": 2181,
+            "class": "Developed, Open Space to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2182": {
+            "value": 2182,
+            "class": "Developed, Open Space to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2190": {
+            "value": 2190,
+            "class": "Developed, Open Space to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2195": {
+            "value": 2195,
+            "class": "Developed, Open Space to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2221": {
+            "value": 2221,
+            "class": "Developed, Low Intensity to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2223": {
+            "value": 2223,
+            "class": "Developed, Low Intensity to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2224": {
+            "value": 2224,
+            "class": "Developed, Low Intensity to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2231": {
+            "value": 2231,
+            "class": "Developed, Low Intensity to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2241": {
+            "value": 2241,
+            "class": "Developed, Low Intensity to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2242": {
+            "value": 2242,
+            "class": "Developed, Low Intensity to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2243": {
+            "value": 2243,
+            "class": "Developed, Low Intensity to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2252": {
+            "value": 2252,
+            "class": "Developed, Low Intensity to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2271": {
+            "value": 2271,
+            "class": "Developed, Low Intensity to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2281": {
+            "value": 2281,
+            "class": "Developed, Low Intensity to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2282": {
+            "value": 2282,
+            "class": "Developed, Low Intensity to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2290": {
+            "value": 2290,
+            "class": "Developed, Low Intensity to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2295": {
+            "value": 2295,
+            "class": "Developed, Low Intensity to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2311": {
+            "value": 2311,
+            "class": "Developed, Medium Intensity to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2312": {
+            "value": 2312,
+            "class": "Developed, Medium Intensity to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2321": {
+            "value": 2321,
+            "class": "Developed, Medium Intensity to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2322": {
+            "value": 2322,
+            "class": "Developed, Medium Intensity to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2324": {
+            "value": 2324,
+            "class": "Developed, Medium Intensity to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2331": {
+            "value": 2331,
+            "class": "Developed, Medium Intensity to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2341": {
+            "value": 2341,
+            "class": "Developed, Medium Intensity to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2342": {
+            "value": 2342,
+            "class": "Developed, Medium Intensity to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2343": {
+            "value": 2343,
+            "class": "Developed, Medium Intensity to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2352": {
+            "value": 2352,
+            "class": "Developed, Medium Intensity to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2371": {
+            "value": 2371,
+            "class": "Developed, Medium Intensity to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2381": {
+            "value": 2381,
+            "class": "Developed, Medium Intensity to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2382": {
+            "value": 2382,
+            "class": "Developed, Medium Intensity to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2390": {
+            "value": 2390,
+            "class": "Developed, Medium Intensity to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2395": {
+            "value": 2395,
+            "class": "Developed, Medium Intensity to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2411": {
+            "value": 2411,
+            "class": "Developed, High Intensity to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2412": {
+            "value": 2412,
+            "class": "Developed, High Intensity to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2421": {
+            "value": 2421,
+            "class": "Developed, High Intensity to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2422": {
+            "value": 2422,
+            "class": "Developed, High Intensity to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2423": {
+            "value": 2423,
+            "class": "Developed, High Intensity to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2431": {
+            "value": 2431,
+            "class": "Developed, High Intensity to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2441": {
+            "value": 2441,
+            "class": "Developed, High Intensity to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2442": {
+            "value": 2442,
+            "class": "Developed, High Intensity to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2443": {
+            "value": 2443,
+            "class": "Developed, High Intensity to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2452": {
+            "value": 2452,
+            "class": "Developed, High Intensity to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2471": {
+            "value": 2471,
+            "class": "Developed, High Intensity to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2481": {
+            "value": 2481,
+            "class": "Developed, High Intensity to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2482": {
+            "value": 2482,
+            "class": "Developed, High Intensity to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2490": {
+            "value": 2490,
+            "class": "Developed, High Intensity to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "2495": {
+            "value": 2495,
+            "class": "Developed, High Intensity to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "3111": {
+            "value": 3111,
+            "class": "Barren Land (Rock/Sand/Clay) to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "3112": {
+            "value": 3112,
+            "class": "Barren Land (Rock/Sand/Clay) to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "3121": {
+            "value": 3121,
+            "class": "Barren Land (Rock/Sand/Clay) to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "3122": {
+            "value": 3122,
+            "class": "Barren Land (Rock/Sand/Clay) to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "3123": {
+            "value": 3123,
+            "class": "Barren Land (Rock/Sand/Clay) to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "3124": {
+            "value": 3124,
+            "class": "Barren Land (Rock/Sand/Clay) to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "3141": {
+            "value": 3141,
+            "class": "Barren Land (Rock/Sand/Clay) to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "3142": {
+            "value": 3142,
+            "class": "Barren Land (Rock/Sand/Clay) to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "3143": {
+            "value": 3143,
+            "class": "Barren Land (Rock/Sand/Clay) to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4111": {
+            "value": 4111,
+            "class": "Deciduous Forest to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4112": {
+            "value": 41112,
+            "class": "Deciduous Forest to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4121": {
+            "value": 4121,
+            "class": "Deciduous Forest to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4122": {
+            "value": 4122,
+            "class": "Deciduous Forest to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4123": {
+            "value": 4123,
+            "class": "Deciduous Forest to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4124": {
+            "value": 4124,
+            "class": "Deciduous Forest to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4131": {
+            "value": 4131,
+            "class": "Deciduous Forest to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4142": {
+            "value": 4142,
+            "class": "Deciduous Forest to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4143": {
+            "value": 4143,
+            "class": "Deciduous Forest to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4152": {
+            "value": 4152,
+            "class": "Deciduous Forest to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4171": {
+            "value": 4171,
+            "class": "Deciduous Forest to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4181": {
+            "value": 4181,
+            "class": "Deciduous Forest to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4182": {
+            "value": 4182,
+            "class": "Deciduous Forest to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4190": {
+            "value": 4190,
+            "class": "Deciduous Forest to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4195": {
+            "value": 4195,
+            "class": "Deciduous Forest to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4211": {
+            "value": 4211,
+            "class": "Evergreen Forest to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4212": {
+            "value": 4212,
+            "class": "Evergreen Forest to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4221": {
+            "value": 4221,
+            "class": "Evergreen Forest to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4222": {
+            "value": 4222,
+            "class": "Evergreen Forest to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4223": {
+            "value": 4223,
+            "class": "Evergreen Forest to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4224": {
+            "value": 4224,
+            "class": "Evergreen Forest to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4231": {
+            "value": 4231,
+            "class": "Evergreen Forest to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4241": {
+            "value": 4241,
+            "class": "Evergreen Forest to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4243": {
+            "value": 4243,
+            "class": "Evergreen Forest to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4252": {
+            "value": 4252,
+            "class": "Evergreen Forest to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4271": {
+            "value": 4271,
+            "class": "Evergreen Forest to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4281": {
+            "value": 4281,
+            "class": "Evergreen Forest to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4282": {
+            "value": 4282,
+            "class": "Evergreen Forest to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4290": {
+            "value": 4290,
+            "class": "Evergreen Forest to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4295": {
+            "value": 4295,
+            "class": "Evergreen Forest to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4311": {
+            "value": 4311,
+            "class": "Mixed Forest to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4312": {
+            "value": 4312,
+            "class": "Mixed Forest to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4321": {
+            "value": 4321,
+            "class": "Mixed Forest to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4322": {
+            "value": 4322,
+            "class": "Mixed Forest to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4323": {
+            "value": 4323,
+            "class": "Mixed Forest to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4324": {
+            "value": 4324,
+            "class": "Mixed Forest to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4331": {
+            "value": 4331,
+            "class": "Mixed Forest to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4341": {
+            "value": 4341,
+            "class": "Mixed Forest to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4342": {
+            "value": 4342,
+            "class": "Mixed Forest to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4352": {
+            "value": 4352,
+            "class": "Mixed Forest to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4371": {
+            "value": 4371,
+            "class": "Mixed Forest to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4381": {
+            "value": 4381,
+            "class": "Mixed Forest to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4382": {
+            "value": 4382,
+            "class": "Mixed Forest to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4390": {
+            "value": 4390,
+            "class": "Mixed Forest to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "4395": {
+            "value": 4395,
+            "class": "Mixed Forest to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5211": {
+            "value": 5211,
+            "class": "Shrub/Scrub to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5212": {
+            "value": 5212,
+            "class": "Shrub/Scrub to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5221": {
+            "value": 5221,
+            "class": "Shrub/Scrub to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5222": {
+            "value": 5222,
+            "class": "Shrub/Scrub to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5223": {
+            "value": 5223,
+            "class": "Shrub/Scrub to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5224": {
+            "value": 5224,
+            "class": "Shrub/Scrub to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5231": {
+            "value": 5231,
+            "class": "Shrub/Scrub to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5241": {
+            "value": 5241,
+            "class": "Shrub/Scrub to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5242": {
+            "value": 5242,
+            "class": "Shrub/Scrub to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5243": {
+            "value": 5243,
+            "class": "Shrub/Scrub to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5271": {
+            "value": 5271,
+            "class": "Shrub/Scrub to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5281": {
+            "value": 5281,
+            "class": "Shrub/Scrub to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5282": {
+            "value": 5282,
+            "class": "Shrub/Scrub to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5290": {
+            "value": 5290,
+            "class": "Shrub/Scrub to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "5295": {
+            "value": 5295,
+            "class": "Shrub/Scrub to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7111": {
+            "value": 7111,
+            "class": "Grassland/Herbaceous to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7112": {
+            "value": 7112,
+            "class": "Grassland/Herbaceous to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7121": {
+            "value": 7121,
+            "class": "Grassland/Herbaceous to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7122": {
+            "value": 7122,
+            "class": "Grassland/Herbaceous to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7123": {
+            "value": 7123,
+            "class": "Grassland/Herbaceous to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7124": {
+            "value": 7124,
+            "class": "Grassland/Herbaceous to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7131": {
+            "value": 7131,
+            "class": "Grassland/Herbaceous to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7141": {
+            "value": 7141,
+            "class": "Grassland/Herbaceous to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7142": {
+            "value": 7142,
+            "class": "Grassland/Herbaceous to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7143": {
+            "value": 7143,
+            "class": "Grassland/Herbaceous to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7152": {
+            "value": 7152,
+            "class": "Grassland/Herbaceous to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7181": {
+            "value": 7181,
+            "class": "Grassland/Herbaceous to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7182": {
+            "value": 7182,
+            "class": "Grassland/Herbaceous to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7190": {
+            "value": 7190,
+            "class": "Grassland/Herbaceous to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "7195": {
+            "value": 7195,
+            "class": "Grassland/Herbaceous to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8111": {
+            "value": 8111,
+            "class": "Pasture/Hay to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8112": {
+            "value": 8112,
+            "class": "Pasture/Hay to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8121": {
+            "value": 8121,
+            "class": "Pasture/Hay to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8122": {
+            "value": 8122,
+            "class": "Pasture/Hay to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8123": {
+            "value": 8123,
+            "class": "Pasture/Hay to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8124": {
+            "value": 8124,
+            "class": "Pasture/Hay to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8131": {
+            "value": 8131,
+            "class": "Pasture/Hay to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8141": {
+            "value": 8141,
+            "class": "Pasture/Hay to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8142": {
+            "value": 8142,
+            "class": "Pasture/Hay to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8143": {
+            "value": 8143,
+            "class": "Pasture/Hay to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8152": {
+            "value": 8152,
+            "class": "Pasture/Hay to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8171": {
+            "value": 8171,
+            "class": "Pasture/Hay to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8182": {
+            "value": 8182,
+            "class": "Pasture/Hay to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8190": {
+            "value": 8190,
+            "class": "Pasture/Hay to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8195": {
+            "value": 8195,
+            "class": "Pasture/Hay to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8211": {
+            "value": 8211,
+            "class": "Cultivated Crops to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8212": {
+            "value": 8212,
+            "class": "Cultivated Crops to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8221": {
+            "value": 8221,
+            "class": "Cultivated Crops to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8222": {
+            "value": 8222,
+            "class": "Cultivated Crops to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8223": {
+            "value": 8223,
+            "class": "Cultivated Crops to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8224": {
+            "value": 8224,
+            "class": "Cultivated Crops to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8231": {
+            "value": 8231,
+            "class": "Cultivated Crops to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8241": {
+            "value": 8241,
+            "class": "Cultivated Crops to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8242": {
+            "value": 8242,
+            "class": "Cultivated Crops to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8243": {
+            "value": 8243,
+            "class": "Cultivated Crops to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8252": {
+            "value": 8252,
+            "class": "Cultivated Crops to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8271": {
+            "value": 8271,
+            "class": "Cultivated Crops to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8281": {
+            "value": 8281,
+            "class": "Cultivated Crops to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8290": {
+            "value": 8290,
+            "class": "Cultivated Crops to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "8295": {
+            "value": 8295,
+            "class": "Cultivated Crops to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9011": {
+            "value": 9011,
+            "class": "Woody Wetlands to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9012": {
+            "value": 9012,
+            "class": "Woody Wetlands to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9021": {
+            "value": 9021,
+            "class": "Woody Wetlands to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9022": {
+            "value": 9022,
+            "class": "Woody Wetlands to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9023": {
+            "value": 9023,
+            "class": "Woody Wetlands to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9024": {
+            "value": 9024,
+            "class": "Woody Wetlands to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9031": {
+            "value": 9031,
+            "class": "Woody Wetlands to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9041": {
+            "value": 9041,
+            "class": "Woody Wetlands to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9042": {
+            "value": 9042,
+            "class": "Woody Wetlands to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9043": {
+            "value": 9043,
+            "class": "Woody Wetlands to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9052": {
+            "value": 9052,
+            "class": "Woody Wetlands to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9071": {
+            "value": 9071,
+            "class": "Woody Wetlands to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9081": {
+            "value": 9081,
+            "class": "Woody Wetlands to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9082": {
+            "value": 9082,
+            "class": "Woody Wetlands to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9095": {
+            "value": 9095,
+            "class": "Woody Wetlands to Emergent Herbaceous Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9511": {
+            "value": 9511,
+            "class": "Emergent Herbaceous Wetlands to Open Water",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9512": {
+            "value": 9512,
+            "class": "Emergent Herbaceous Wetlands to Perennial Ice/Snow",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9521": {
+            "value": 9521,
+            "class": "Emergent Herbaceous Wetlands to Developed, Open Space",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9522": {
+            "value": 9522,
+            "class": "Emergent Herbaceous Wetlands to Developed, Low Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9523": {
+            "value": 9523,
+            "class": "Emergent Herbaceous Wetlands to Developed, Medium Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9524": {
+            "value": 9524,
+            "class": "Emergent Herbaceous Wetlands to Developed, High Intensity",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9531": {
+            "value": 9531,
+            "class": "Emergent Herbaceous Wetlands to Barren Land (Rock/Sand/Clay)",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9541": {
+            "value": 9541,
+            "class": "Emergent Herbaceous Wetlands to Deciduous Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9542": {
+            "value": 9542,
+            "class": "Emergent Herbaceous Wetlands to Evergreen Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9543": {
+            "value": 9543,
+            "class": "Emergent Herbaceous Wetlands to Mixed Forest",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9552": {
+            "value": 9552,
+            "class": "Emergent Herbaceous Wetlands to Shrub/Scrub",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9571": {
+            "value": 9571,
+            "class": "Emergent Herbaceous Wetlands to Grassland/Herbaceous",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9581": {
+            "value": 9581,
+            "class": "Emergent Herbaceous Wetlands to Pasture/Hay",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9582": {
+            "value": 9582,
+            "class": "Emergent Herbaceous Wetlands to Cultivated Crops",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        },
+        "9590": {
+            "value": 9590,
+            "class": "Emergent Herbaceous Wetlands to Woody Wetlands",
+            "rgb": [162, 1, 255],
+            "hex": "#a201ff"
+        }
+    },
+    "land_cover_confidence": {
+        "250": {
+            "value": 250,
+            "class": "NoData",
+            "rgb": [0, 0, 0],
+            "hex": "#000000"
+        },
+        "1": {
+            "value": 1,
+            "class": "Lowest Confidence",
+            "rgb": [255, 255, 255],
+            "hex": "#ffffff"
+        },
+        "100": {
+            "value": 100,
+            "class": "Highest Confidence",
+            "rgb": [0, 0, 0],
+            "hex": "#000000"
+        }
+    },
+    "fractional_impervious_surface": {
+        "250": {
+            "value": 250,
+            "class": "NoData",
+            "rgb": [0, 0, 0],
+            "hex": "#000000"
+        },
+        "0": {
+            "value": 0,
+            "class": "0% Impervious Surface",
+            "rgb": [255, 255, 255],
+            "hex": "#ffffff"
+        },
+        "1": {
+            "value": 1,
+            "class": "1% Impervious Surface",
+            "rgb": [255, 255, 255],
+            "hex": "#ffffff"
+        },
+        "100": {
+            "value": 100,
+            "class": "100% Impervious Surface",
+            "rgb": [0, 0, 0],
+            "hex": "#000000"
+        }
+    },
+    "impervious_descriptor": {
+        "250": {
+            "value": 250,
+            "class": "NoData",
+            "rgb": [0, 0, 0],
+            "hex": "#000000"
+        },
+        "0": {
+            "value": 0,
+            "class": "Non-Urban",
+            "rgb": [0, 0, 0],
+            "hex": "#000000"
+        },
+        "1": {
+            "value": 1,
+            "class": "Roads",
+            "rgb": [33, 113, 181],
+            "hex": "#2171b5"
+        },
+        "2": {
+            "value": 2,
+            "class": "Urban",
+            "rgb": [246, 236, 39],
+            "hex": "#f6ec27"
+        }
+    },
+    "spectral_change": {
+        "9999": {
+            "value": 9999,
+            "class": "NoData",
+            "rgb": [0, 0, 0],
+            "hex": "#000000"
+        },
+        "0": {
+            "value": 0,
+            "class": "No Spectral Change",
+            "rgb": [0, 0, 0],
+            "hex": "#000000"
+        },
+        "1": {
+            "value": 1,
+            "class": "January 1st",
+            "rgb": [255, 255, 255],
+            "hex": "#ffffff"
+        },
+        "366": {
+            "value": 366,
+            "class": "December 31st (leap year)",
+            "rgb": [255, 255, 255],
+            "hex": "#ffffff"
+        }
+    }
+}

@@ -90,6 +90,7 @@ for lyr in m.listLayers():
 for raster in arcpy.ListRasters():
     arcpy.management.Delete(raster)
 
+#https://di-nlcd.img.arcgis.com/arcgis/rest/services/USA_NLCD_Annual_LandCover/ImageServer
 
 # ArcGIS Online Feature Service URL
 layer_url = "https://ic.imagery1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer"
@@ -158,7 +159,7 @@ sel_raster = arcpy.management.SelectLayerByAttribute(
 
 arcpy.management.Clip(
     in_raster = sel_raster,
-    out_raster = os.path.join(gdb_path, f"hls_2017"),
+    out_raster = os.path.join(gdb_path, "hls_2017"),
     in_template_dataset = oc_lyr,
     nodata_value = "255",
     clipping_geometry = "NONE",
@@ -228,4 +229,3 @@ arcpy.management.SelectLayerByAttribute(
     where_clause = None,
     invert_where_clause=None
 )
-
